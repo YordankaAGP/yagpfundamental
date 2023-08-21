@@ -1,5 +1,6 @@
 package com.bcaf.praktikum;
 
+import java.lang.reflect.Array;
 import java.util.Scanner;
 
 public class Day3 {
@@ -7,6 +8,9 @@ public class Day3 {
         Scanner scan = new Scanner(System.in);
         System.out.println("Enter text: ");
         String text = scan.nextLine();
+
+        String text2 = "asd";
+        System.out.println(text2.substring(1, 3));
 
         char[] textArr = text.toCharArray();
 
